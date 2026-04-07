@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="scroll-progress-container">
+        <div class="scroll-progress" id="scroll-progress"></div>
+    </div>
+    <canvas id="bg-canvas"></canvas>
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#home" class="logo">Aryan<span class="logo-accent">.</span></a>
@@ -31,7 +35,7 @@
                 <div class="hero-content animate-up">
                     <p class="hero-subtitle text-gradient">Hi, my name is</p>
                     <h1 class="hero-title">Aryan Sehgal.</h1>
-                    <h2 class="hero-role">Data Science & Economics Student</h2>
+                    <h2 class="hero-role"><span id="typewriter"></span><span class="cursor">|</span></h2>
                     <h3 class="hero-school">Rutgers University</h3>
                     
                     <p class="hero-description text-muted">
